@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Request Refund">aa6cefcf83083210dc22f4b6feaad320</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 19:00:57</sys_created_on>
+        <sys_id>745bb3c383883210dc22f4b6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Refund.refund.requester</sys_name>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_745bb3c383883210dc22f4b6feaad357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 19:00:57</sys_updated_on>
+        <user_criteria display_value="refund.requester">582bbf8383883210dc22f4b6feaad388</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</application>
+        <file_path/>
+        <instance_id>0c7dd0461be27d5c52a243f4bd4bcbed</instance_id>
+        <instance_name>dev215190</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_745bb3c383883210dc22f4b6feaad357</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Refund">aa6cefcf83083210dc22f4b6feaad320</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 19:00:57</sys_created_on><sys_id>745bb3c383883210dc22f4b6feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request Refund.refund.requester</sys_name><sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package><sys_policy/><sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_745bb3c383883210dc22f4b6feaad357</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 19:00:57</sys_updated_on><user_criteria display_value="refund.requester">582bbf8383883210dc22f4b6feaad388</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1856481404</payload_hash>
+        <record_name>Request Refund.refund.requester</record_name>
+        <reverted_from/>
+        <source>95e59f0383c43210dc22f4b6feaad369</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 19:00:58</sys_created_on>
+        <sys_id>b05bb3c383883210dc22f4b6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19972ccf3110000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 19:00:58</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>b45bb3c3a7883210c2ccd7ec630cfe5a</update_guid>
+        <update_guid_history>b45bb3c3a7883210c2ccd7ec630cfe5a:1856481404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Refund.refund.requester">4cb9196f83083210dc22f4b6feaad3b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 20:31:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>6304056e222f4818b6a336e16dfdca41</sys_id>
+        <sys_metadata>745bb3c383883210dc22f4b6feaad357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Refund.refund.requester</sys_name>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_scope_delete display_value="">745ebdaf4b974c7f889d3e1d96c406a9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_745bb3c383883210dc22f4b6feaad357</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_745bb3c383883210dc22f4b6feaad357">b05bb3c383883210dc22f4b6feaad35b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 20:31:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

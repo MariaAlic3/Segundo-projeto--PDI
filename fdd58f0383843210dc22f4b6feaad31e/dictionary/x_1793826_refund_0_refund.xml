@@ -12,7 +12,6 @@
             </choice>
         </element>
         <element label="Justification" max_length="40" name="justification" type="string"/>
-        <element label="Identification" max_length="40" name="identification" type="string"/>
         <element label="Amount paid" max_length="40" name="amount_paid" type="currency"/>
     </element>
 </database>
