@@ -6,24 +6,24 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>To manager and resolver</description>
+        <description>Allow read for records in x_1793826_refund_0_category, for users with role x_1793826_refund_0.refund_requester.</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1793826_refund_0_refund</name>
+        <name>x_1793826_refund_0_category</name>
         <operation display_value="read">read</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-22 16:24:07</sys_created_on>
-        <sys_id>5f67974783c43210dc22f4b6feaad352</sys_id>
+        <sys_created_on>2025-09-24 12:16:06</sys_created_on>
+        <sys_id>61d1707b83087210dc22f4b6feaad38f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_1793826_refund_0_refund</sys_name>
+        <sys_name>x_1793826_refund_0_category</sys_name>
         <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
-        <sys_update_name>sys_security_acl_5f67974783c43210dc22f4b6feaad352</sys_update_name>
+        <sys_update_name>sys_security_acl_61d1707b83087210dc22f4b6feaad38f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 13:02:25</sys_updated_on>
+        <sys_updated_on>2025-09-24 12:20:08</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

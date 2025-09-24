@@ -3,14 +3,8 @@
         <element label="Purchase date" max_length="40" name="purchase_date" type="glide_date"/>
         <element label="Category" max_length="32" name="category" reference="x_1793826_refund_0_category" type="reference"/>
         <element label="Conversion to Dollar" max_length="40" name="conversion_to_dollar" type="currency"/>
-        <element choice="1" label="Proof of payment" max_length="40" name="proof_of_payment" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="PDF" sequence="0" value="pdf"/>
-                <element inactive_on_update="false" label="png" sequence="2" value="png"/>
-                <element inactive_on_update="false" label="jpeg" sequence="1" value="jpeg"/>
-                <element inactive_on_update="false" label="svg" sequence="3" value="svg"/>
-            </choice>
-        </element>
+        <element label="Proof of payment" max_length="40" name="proof_of_payment" type="file_attachment"/>
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Justification" max_length="40" name="justification" type="string"/>
         <element label="Amount paid" max_length="40" name="amount_paid" type="currency"/>
     </element>

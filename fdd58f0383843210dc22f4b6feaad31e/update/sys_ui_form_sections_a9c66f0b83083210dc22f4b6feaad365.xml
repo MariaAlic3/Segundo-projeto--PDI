@@ -17,16 +17,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-22 17:31:11</sys_created_on>
+            <sys_created_on>2025-09-24 13:50:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>75c66f0b83083210dc22f4b6feaad36a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>468785b783887210dc22f4b6feaad304</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1793826_refund_0_refund" name="x_1793826_refund_0_refund" sys_domain="global" view="Default view">a9c66f0b83083210dc22f4b6feaad365</sys_ui_form>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1793826_refund_0_refund" sys_domain="global" view="Default view">25c66f0b83083210dc22f4b6feaad30c</sys_ui_section>
+            <sys_ui_section caption="About Payment and Refund Amount" display_value="About Payment and Refund Amount" name="x_1793826_refund_0_refund" sys_domain="global" view="Default view">4a8785b783887210dc22f4b6feaad301</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 17:31:11</sys_updated_on>
+            <sys_updated_on>2025-09-24 14:08:25</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f9c66f0b83083210dc22f4b6feaad36d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1793826_refund_0_refund" name="x_1793826_refund_0_refund" sys_domain="global" view="Default view">a9c66f0b83083210dc22f4b6feaad365</sys_ui_form>
-            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1793826_refund_0_refund" sys_domain="global" view="Default view">e9c66f0b83083210dc22f4b6feaad364</sys_ui_section>
+            <sys_ui_section caption="Feedback" display_value="Feedback" name="x_1793826_refund_0_refund" sys_domain="global" view="Default view">e9c66f0b83083210dc22f4b6feaad364</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-22 17:31:11</sys_updated_on>
+            <sys_updated_on>2025-09-24 14:08:25</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1793826_refund_0_refund</name>
