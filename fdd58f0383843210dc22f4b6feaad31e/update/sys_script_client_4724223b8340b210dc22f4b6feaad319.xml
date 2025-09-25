@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Works after the UI policy</description>
+        <field>purchase_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Prevent future dates from being refunded</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    // A UI Policy já tornou o campo somente leitura.
+    // O Client Script apenas exibe a mensagem.
+    
+    // Pega a data de hoje sem a hora
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // Pega a data selecionada
+    var selectedDate = new Date(newValue);
+    selectedDate.setHours(0, 0, 0, 0);
+
+    if (selectedDate > today) {
+        g_form.addErrorMessage('A data do reembolso deve ser anterior ou igual ao dia de hoje.');
+    } else {
+        // Remove a mensagem se a data for válida
+        g_form.clearMessages();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 20:35:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4724223b8340b210dc22f4b6feaad319</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Prevent future dates from being refunded</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_update_name>sys_script_client_4724223b8340b210dc22f4b6feaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 20:38:26</sys_updated_on>
+        <table>x_1793826_refund_0_refund</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

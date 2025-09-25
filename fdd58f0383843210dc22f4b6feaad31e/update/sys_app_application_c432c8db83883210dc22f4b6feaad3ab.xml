@@ -7,14 +7,14 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>admin,x_1793826_refund_0.hr_manager,x_1793826_refund_0.hr_resolver</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-22 19:31:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c432c8db83883210dc22f4b6feaad3ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Requested Refund</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name>sys_app_application_c432c8db83883210dc22f4b6feaad3ab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 19:31:49</sys_updated_on>
+        <sys_updated_on>2025-09-24 17:27:18</sys_updated_on>
         <title>Requested Refund</title>
         <view_name/>
     </sys_app_application>
