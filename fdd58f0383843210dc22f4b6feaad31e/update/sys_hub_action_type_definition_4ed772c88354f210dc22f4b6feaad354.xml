@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>integration_freecurrencyapi_api</internal_name>
-        <label_cache>[{"name":"{{action.amount_paid}}","label":"action➛amount_paid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.base_currency}}","label":"action➛base_currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.currencies}}","label":"action➛currencies","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.amount}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"dcf1441d-84e0-47e6-b8fa-5177b605b9ad"}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"3054c272-e13d-41ef-af8e-10f21648cbdc"}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c8d0c75-8980-4fb8-a4ef-875d34071a2e"}},{"name":"{{step[2d6db052-1a97-4f55-b1b9-e01399f7a8b1].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root._1863745087}}","label":"step➛JSON Parser step➛root➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root.data.USD}}","label":"step➛JSON Parser step➛root➛data➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.amount_paid}}","label":"action➛amount_paid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"27865f62-bedf-4b1a-9a44-f44c9f28ffb2"}},{"name":"{{action.base_currency}}","label":"action➛base_currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.currencies}}","label":"action➛currencies","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.amount}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"dcf1441d-84e0-47e6-b8fa-5177b605b9ad"}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"3054c272-e13d-41ef-af8e-10f21648cbdc"}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c8d0c75-8980-4fb8-a4ef-875d34071a2e"}},{"name":"{{step[2d6db052-1a97-4f55-b1b9-e01399f7a8b1].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root._1863745087}}","label":"step➛JSON Parser step➛root➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root.data.USD}}","label":"step➛JSON Parser step➛root➛data➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>391b1b888318f210dc22f4b6feaad3da</master_snapshot>
         <master_snapshot_digest/>
         <name>Integration freecurrencyapi Api</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ed772c88354f210dc22f4b6feaad354</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>Integration freecurrencyapi Api</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4ed772c88354f210dc22f4b6feaad354</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:11</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:52</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -516,7 +516,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>013693d083d83610dc22f4b6feaad39d</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -524,7 +524,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:08</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:50</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -651,10 +651,10 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 17:01:01</sys_created_on>
         <sys_id>fcacfa448394f210dc22f4b6feaad314</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:39:44</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:44:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fcacfa448394f210dc22f4b6feaad314"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -735,10 +735,10 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 19:04:40</sys_created_on>
         <sys_id>98f8dfc48318f210dc22f4b6feaad386</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:39:44</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"apikey","value":""}]}</value>
+        <sys_updated_on>2025-09-26 20:44:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"apikey","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"base_currency","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"currencies","value":""}]}</value>
         <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -779,13 +779,13 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <input_name>query_params</input_name>
         <instance>fcacfa448394f210dc22f4b6feaad314</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.Integration_apikey\", \"\")","savedValue":""}}</script>
+        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.Integration_apikey\", \"\")","savedValue":""},"name-values-1-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.base_currency\", \"\");","savedValue":""},"name-values-2-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.currencies\", \"\")","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-26 14:39:44</sys_created_on>
         <sys_id>09e56b94831c3610dc22f4b6feaad3c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:39:44</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:44</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -840,7 +840,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>amount_paid</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Integration freecurrencyapi Api">4ed772c88354f210dc22f4b6feaad354</model>
         <model_id>4ed772c88354f210dc22f4b6feaad354</model_id>
@@ -865,14 +865,14 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-26 13:53:39</sys_created_on>
         <sys_id>4a5b9b5883d83610dc22f4b6feaad309</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 13:53:39</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:31:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1126,14 +1126,14 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 16:45:34</sys_created_on>
         <sys_id>6e19324c8354f210dc22f4b6feaad335</sys_id>
-        <sys_mod_count>83</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:09</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1260,17 +1260,17 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Integration freecurrencyapi Api">4ed772c88354f210dc22f4b6feaad354</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d61b5b888318f210dc22f4b6feaad373","name":"plan","plan_signature":null}}</plan>
-        <snapshot>eba6afd4831c3610dc22f4b6feaad300</snapshot>
+        <snapshot>8fe9fc6c83907610dc22f4b6feaad347</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 19:14:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d61b5b888318f210dc22f4b6feaad373</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:12</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:53</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1287,7 +1287,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <description/>
         <flow_priority/>
         <internal_name>integration_freecurrencyapi_api</internal_name>
-        <label_cache>[{"name":"{{action.amount_paid}}","label":"action➛amount_paid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.base_currency}}","label":"action➛base_currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.currencies}}","label":"action➛currencies","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.amount}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"dcf1441d-84e0-47e6-b8fa-5177b605b9ad"}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"3054c272-e13d-41ef-af8e-10f21648cbdc"}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c8d0c75-8980-4fb8-a4ef-875d34071a2e"}},{"name":"{{step[2d6db052-1a97-4f55-b1b9-e01399f7a8b1].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root._1863745087}}","label":"step➛JSON Parser step➛root➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root.data.USD}}","label":"step➛JSON Parser step➛root➛data➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.amount_paid}}","label":"action➛amount_paid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"27865f62-bedf-4b1a-9a44-f44c9f28ffb2"}},{"name":"{{action.base_currency}}","label":"action➛base_currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.currencies}}","label":"action➛currencies","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.amount}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"decimal","uiUniqueId":"dcf1441d-84e0-47e6-b8fa-5177b605b9ad"}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"3054c272-e13d-41ef-af8e-10f21648cbdc"}},{"name":"{{step[5069d598-0fdf-4e75-a814-dc9cb4129a6d].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c8d0c75-8980-4fb8-a4ef-875d34071a2e"}},{"name":"{{step[2d6db052-1a97-4f55-b1b9-e01399f7a8b1].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root._1863745087}}","label":"step➛JSON Parser step➛root➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7ce1e4f5-81c4-488b-9445-675144af0078].root.data.USD}}","label":"step➛JSON Parser step➛root➛data➛USD","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Integration freecurrencyapi Api</name>
         <natlang/>
@@ -1300,7 +1300,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>391b1b888318f210dc22f4b6feaad3da</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1308,7 +1308,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:10</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1408,10 +1408,10 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 19:14:04</sys_created_on>
         <sys_id>061b5b888318f210dc22f4b6feaad302</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:11</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:52</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=061b5b888318f210dc22f4b6feaad302"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1450,10 +1450,10 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 19:14:05</sys_created_on>
         <sys_id>4a1b5b888318f210dc22f4b6feaad319</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:11</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"apikey","value":""}]}</value>
+        <sys_updated_on>2025-09-26 20:46:52</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"apikey","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"base_currency","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"currencies","value":""}]}</value>
         <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1536,13 +1536,13 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <input_name>query_params</input_name>
         <instance>061b5b888318f210dc22f4b6feaad302</instance>
         <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.Integration_apikey\", \"\")","savedValue":""}}</script>
+        <script>{"name-values-0-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.Integration_apikey\", \"\")","savedValue":""},"name-values-1-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.base_currency\", \"\");","savedValue":""},"name-values-2-value-input":{"scriptActive":true,"script":"return gs.getProperty(\"x_1793826_refund_0.currencies\", \"\")","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-26 14:43:11</sys_created_on>
         <sys_id>23a66fd4831c3610dc22f4b6feaad3cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:11</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:52</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1666,7 +1666,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3961fd083d83610dc22f4b6feaad347</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1674,7 +1674,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:11</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:52</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2097,7 +2097,7 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>amount_paid</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>8000</max_length>
         <model display_value="Integration freecurrencyapi Api">391b1b888318f210dc22f4b6feaad3da</model>
         <model_id>391b1b888318f210dc22f4b6feaad3da</model_id>
@@ -2122,14 +2122,14 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-26 13:53:59</sys_created_on>
         <sys_id>f66b5f5883d83610dc22f4b6feaad342</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 13:53:59</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:31:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2296,14 +2296,14 @@ outputs.endpoint = gs.getProperty("x_1793826_refund_0.Integration_endpoint", "")
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-25 19:14:05</sys_created_on>
         <sys_id>421b5b888318f210dc22f4b6feaad322</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-26 14:43:11</sys_updated_on>
+        <sys_updated_on>2025-09-26 20:46:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

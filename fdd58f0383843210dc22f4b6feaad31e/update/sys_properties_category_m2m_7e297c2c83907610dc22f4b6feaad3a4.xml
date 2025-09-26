@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Refund">ca5c37c383883210dc22f4b6feaad327</category>
+        <order>700</order>
+        <property display_value="x_1793826_refund_0.currencies" name="x_1793826_refund_0.currencies">9719342c83907610dc22f4b6feaad3ab</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 20:43:35</sys_created_on>
+        <sys_id>7e297c2c83907610dc22f4b6feaad3a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1793826_refund_0.currencies.Refund</sys_name>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_7e297c2c83907610dc22f4b6feaad3a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 20:43:45</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
