@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="proof_of_payment" table="x_1793826_refund_0_refund" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>proof_of_payment</element>
+            <name>x_1793826_refund_0_refund</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-22 17:25:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>proof_of_payment</sys_name>
+            <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+            <sys_update_name>sys_choice_x_1793826_refund_0_refund_proof_of_payment</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-22 17:25:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

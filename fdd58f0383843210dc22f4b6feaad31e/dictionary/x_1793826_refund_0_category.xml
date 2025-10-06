@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fd071f0783c43210dc22f4b6feaad33d" label="Category" max_length="40" name="x_1793826_refund_0_category" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Group" max_length="40" name="group" reference="sys_user_group" reference_qual="emailENDSWITHrefund@gmail.com" reference_qual_condition="emailENDSWITHrefund@gmail.com" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="name" max_length="40" name="name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Technology" sequence="0" value="Technology"/>
+                <element inactive_on_update="false" label="Education" sequence="2" value="Education"/>
+                <element inactive_on_update="false" label="Food" sequence="1" value="Food"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

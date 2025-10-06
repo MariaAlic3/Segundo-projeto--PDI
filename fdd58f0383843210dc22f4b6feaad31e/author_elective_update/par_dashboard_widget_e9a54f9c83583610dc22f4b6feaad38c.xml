@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">95a54f9c83583610dc22f4b6feaad34c</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Incidents nearing SLA threshold","sourceType":"indicator","uuid":{"indicator":"39c993b7c3213110458f1fec5440dddc","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yMzljOTkzYjdjMzIxMzExMDQ1OGYxZmVjNTQ0MGRkZGMxNjk4NjUyMDc3Nzg1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Incidents nearing SLA","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yMzljOTkzYjdjMzIxMzExMDQ1OGYxZmVjNTQ0MGRkZGMxNjk4NjUyMDc3Nzg1","id":"YVc1a2FXTmhkRzl5TXpsak9Ua3pZamRqTXpJeE16RXhNRFExT0dZeFptVmpOVFEwTUdSa1pHTXhOams0TmpVeU1EYzNOemcxMTY5ODY1MjA3OTEyMg==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"aW5kaWNhdG9yMzljOTkzYjdjMzIxMzExMDQ1OGYxZmVjNTQ0MGRkZGMxNjk4NjUyMDc3Nzg1","groupByField":"f04dd673c3793110458f1fec5440ddc8","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":false,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","componentId":"chsn6i4f","showDateRangeByDefault":false,"allowChangeDateRange":false,"description":"Percentage of the incidents nearing the SLA threshold. This is based on the percentage of SLA elapsed where the elapsed percentage is between 50-75%, 76- 85%, 86-95%, above 95%.","showRegisterValue":false,"noDebounce":"","showRegister":true}</component_props>
+        <h>14</h>
+        <name>Incidents nearing SLA</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 12:18:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9a54f9c83583610dc22f4b6feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incidents nearing SLA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_update_name>par_dashboard_widget_e9a54f9c83583610dc22f4b6feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 12:18:52</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>24</x>
+        <y>7</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</application>
+        <file_path/>
+        <instance_id>0c7dd0461be27d5c52a243f4bd4bcbed</instance_id>
+        <instance_name>dev215190</instance_name>
+        <name>par_dashboard_widget_e9a54f9c83583610dc22f4b6feaad38c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">95a54f9c83583610dc22f4b6feaad34c</canvas><component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":true,"allowTotalValue":true,"indicatorType":"1","isScriptedIndicator":false,"label":"Incidents nearing SLA threshold","sourceType":"indicator","uuid":{"indicator":"39c993b7c3213110458f1fec5440dddc","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yMzljOTkzYjdjMzIxMzExMDQ1OGYxZmVjNTQ0MGRkZGMxNjk4NjUyMDc3Nzg1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Incidents nearing SLA","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"aW5kaWNhdG9yMzljOTkzYjdjMzIxMzExMDQ1OGYxZmVjNTQ0MGRkZGMxNjk4NjUyMDc3Nzg1","id":"YVc1a2FXTmhkRzl5TXpsak9Ua3pZamRqTXpJeE16RXhNRFExT0dZeFptVmpOVFEwTUdSa1pHTXhOams0TmpVeU1EYzNOemcxMTY5ODY1MjA3OTEyMg==","aggregateIndicator":"","frequency":10,"numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"aW5kaWNhdG9yMzljOTkzYjdjMzIxMzExMDQ1OGYxZmVjNTQ0MGRkZGMxNjk4NjUyMDc3Nzg1","groupByField":"f04dd673c3793110458f1fec5440ddc8","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":false,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":[],"contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"startTime":null,"endTime":null,"period":"M","dateFormat":"default","componentId":"chsn6i4f","showDateRangeByDefault":false,"allowChangeDateRange":false,"description":"Percentage of the incidents nearing the SLA threshold. This is based on the percentage of SLA elapsed where the elapsed percentage is between 50-75%, 76- 85%, 86-95%, above 95%.","showRegisterValue":false,"noDebounce":"","showRegister":true}</component_props><h>14</h><name>Incidents nearing SLA</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-26 12:18:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e9a54f9c83583610dc22f4b6feaad38c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Incidents nearing SLA</sys_name><sys_overrides/><sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package><sys_policy/><sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope><sys_update_name>par_dashboard_widget_e9a54f9c83583610dc22f4b6feaad38c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-26 12:18:52</sys_updated_on><visualization/><w>24</w><widget_props/><x>24</x><y>7</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1783811096</payload_hash>
+        <record_name>Incidents nearing SLA</record_name>
+        <reverted_from/>
+        <source>0f36856783c43210dc22f4b6feaad3a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 12:18:52</sys_created_on>
+        <sys_id>e5a54f9c83583610dc22f4b6feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19985f6417c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 12:18:52</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e9a54f9cf95836109611af5cf3e2ca8d</update_guid>
+        <update_guid_history>e9a54f9cf95836109611af5cf3e2ca8d:-1783811096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Incidents nearing SLA">0ea58f9c83583610dc22f4b6feaad32d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 12:18:53</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>95b7e84086ae4ff4ab3dba346ad283e4</sys_id>
+        <sys_metadata>e9a54f9c83583610dc22f4b6feaad38c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incidents nearing SLA</sys_name>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_scope_delete display_value="">745ebdaf4b974c7f889d3e1d96c406a9</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e9a54f9c83583610dc22f4b6feaad38c</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e9a54f9c83583610dc22f4b6feaad38c">e5a54f9c83583610dc22f4b6feaad38e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 12:18:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a67174783c43210dc22f4b6feaad3fe" extends="task" label="Refund" max_length="40" name="x_1793826_refund_0_refund" type="collection">
+        <element label="Purchase date" max_length="40" name="purchase_date" type="glide_date"/>
+        <element label="Category" max_length="32" name="category" reference="x_1793826_refund_0_category" type="reference"/>
+        <element label="Conversion to Dollar" max_length="40" name="conversion_to_dollar" type="decimal"/>
+        <element choice="3" label="integration state" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Integration Failure" value="4"/>
+            </choice>
+        </element>
+        <element label="Proof of payment" max_length="40" name="proof_of_payment" type="file_attachment"/>
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Justification" max_length="40" name="justification" type="string"/>
+        <element label="Amount paid" max_length="40" name="amount_paid" type="decimal"/>
+    </element>
+</database>

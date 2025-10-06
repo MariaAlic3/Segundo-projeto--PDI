@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="DELETE">
+        <name>refund</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:55:30</sys_created_on>
+        <sys_id>9a2c2bcf83083210dc22f4b6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refund</sys_name>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_update_name>sys_properties_category_9a2c2bcf83083210dc22f4b6feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:55:30</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="DELETE" query="documentkey=9a2c2bcf83083210dc22f4b6feaad38a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</application>
+        <file_path/>
+        <instance_id>0c7dd0461be27d5c52a243f4bd4bcbed</instance_id>
+        <instance_name>dev215190</instance_name>
+        <name>sys_properties_category_9a2c2bcf83083210dc22f4b6feaad38a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category"><sys_properties_category action="INSERT_OR_UPDATE"><name>refund</name><sys_class_name>sys_properties_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-22 17:55:30</sys_created_on><sys_id>9a2c2bcf83083210dc22f4b6feaad38a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>refund</sys_name><sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package><sys_policy/><sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope><sys_update_name>sys_properties_category_9a2c2bcf83083210dc22f4b6feaad38a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-22 17:55:30</sys_updated_on><title/></sys_properties_category><sys_translated_text action="delete_multiple" query="documentkey=9a2c2bcf83083210dc22f4b6feaad38a"/></record_update>]]></payload>
+        <payload_hash>1274241847</payload_hash>
+        <record_name>refund</record_name>
+        <reverted_from/>
+        <source>95e59f0383c43210dc22f4b6feaad369</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 17:55:30</sys_created_on>
+        <sys_id>355ce3cf83083210dc22f4b6feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199729104280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 17:55:30</sys_updated_on>
+        <type>System Property Category</type>
+        <update_guid>395ce3cf050832108ef20bdfeae14149</update_guid>
+        <update_guid_history>395ce3cf050832108ef20bdfeae14149:1274241847</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 18:29:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category">sys_properties_category</sys_db_object>
+        <sys_id>41922ef216014c64935961ae5de63810</sys_id>
+        <sys_metadata>9a2c2bcf83083210dc22f4b6feaad38a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refund</sys_name>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_scope_delete display_value="">745ebdaf4b974c7f889d3e1d96c406a9</sys_scope_delete>
+        <sys_update_name>sys_properties_category_9a2c2bcf83083210dc22f4b6feaad38a</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_9a2c2bcf83083210dc22f4b6feaad38a">355ce3cf83083210dc22f4b6feaad34a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 18:29:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

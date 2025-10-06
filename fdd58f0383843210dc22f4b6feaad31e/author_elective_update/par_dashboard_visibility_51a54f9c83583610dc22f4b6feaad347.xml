@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="DELETE">
+        <dashboard display_value="Incident Management - Copy">09a54f9c83583610dc22f4b6feaad317</dashboard>
+        <experience display_value="Success Dashboard">cd11171807113010c7d559bf1ad3003d</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 12:18:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51a54f9c83583610dc22f4b6feaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_update_name>par_dashboard_visibility_51a54f9c83583610dc22f4b6feaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 12:18:50</sys_updated_on>
+    </par_dashboard_visibility>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</application>
+        <file_path/>
+        <instance_id>0c7dd0461be27d5c52a243f4bd4bcbed</instance_id>
+        <instance_name>dev215190</instance_name>
+        <name>par_dashboard_visibility_51a54f9c83583610dc22f4b6feaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility"><par_dashboard_visibility action="INSERT_OR_UPDATE"><dashboard display_value="Incident Management - Copy">09a54f9c83583610dc22f4b6feaad317</dashboard><experience display_value="Success Dashboard">cd11171807113010c7d559bf1ad3003d</experience><sys_class_name>par_dashboard_visibility</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-26 12:18:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>51a54f9c83583610dc22f4b6feaad347</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package><sys_policy/><sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope><sys_update_name>par_dashboard_visibility_51a54f9c83583610dc22f4b6feaad347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-26 12:18:50</sys_updated_on></par_dashboard_visibility></record_update>]]></payload>
+        <payload_hash>-1407579474</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0f36856783c43210dc22f4b6feaad3a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 12:18:50</sys_created_on>
+        <sys_id>19a54f9c83583610dc22f4b6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19985f63bef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 12:18:50</sys_updated_on>
+        <type>PAR Dashboard Visibility</type>
+        <update_guid>d9a54f9c74583610101a9f94136e2748</update_guid>
+        <update_guid_history>d9a54f9c74583610101a9f94136e2748:-1407579474</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">46a58f9c83583610dc22f4b6feaad341</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 12:18:54</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_visibility">par_dashboard_visibility</sys_db_object>
+        <sys_id>097b5894713b4b14845ed81821efe804</sys_id>
+        <sys_metadata>51a54f9c83583610dc22f4b6feaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund Flow" source="x_1793826_refund_0">fdd58f0383843210dc22f4b6feaad31e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund Flow">fdd58f0383843210dc22f4b6feaad31e</sys_scope>
+        <sys_scope_delete display_value="">745ebdaf4b974c7f889d3e1d96c406a9</sys_scope_delete>
+        <sys_update_name>par_dashboard_visibility_51a54f9c83583610dc22f4b6feaad347</sys_update_name>
+        <sys_update_version display_value="par_dashboard_visibility_51a54f9c83583610dc22f4b6feaad347">19a54f9c83583610dc22f4b6feaad349</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 12:18:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
